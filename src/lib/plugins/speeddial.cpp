@@ -65,9 +65,10 @@ void SpeedDial::loadSettings()
 
     if (allPages.isEmpty()) {
         allPages = QL1S("url:\"https://www.falkon.org\"|title:\"Falkon\";"
-                        "url:\"https://store.falkon.org\"|title:\"Falkon Store\";"
-                        "url:\"https://www.kde.org\"|title:\"KDE Planet\";"
-                        "url:\"https://planet.kde.org\"|title:\"KDE Community\";");
+                        "url:\"https://sushiware.online\"|title:\"Sushiware\";"
+                        "url:\"https://www.furaffinity.net\"|title:\"Fur Affinity\";"
+                        "url:\"https://discord.com/channels/@me\"|title:\"Discord\";"
+                        "url:\"https://www.reddit.com\"|title:\"Reddit\";");
     }
     changed(allPages);
 
